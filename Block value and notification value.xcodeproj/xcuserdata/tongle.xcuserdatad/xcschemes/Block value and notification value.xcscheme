@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5DB69EB61D348ABA0028CA2C"
-               BuildableName = "block-mark.app"
-               BlueprintName = "block-mark"
-               ReferencedContainer = "container:block-mark.xcodeproj">
+               BuildableName = "Block value and notification value.app"
+               BlueprintName = "Block value and notification value"
+               ReferencedContainer = "container:Block value and notification value.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5DB69ED21D348ABA0028CA2C"
-               BuildableName = "block-markTests.xctest"
-               BlueprintName = "block-markTests"
-               ReferencedContainer = "container:block-mark.xcodeproj">
+               BuildableName = "Block value and notification valueTests.xctest"
+               BlueprintName = "Block value and notification valueTests"
+               ReferencedContainer = "container:Block value and notification value.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5DB69EDD1D348ABA0028CA2C"
-               BuildableName = "block-markUITests.xctest"
-               BlueprintName = "block-markUITests"
-               ReferencedContainer = "container:block-mark.xcodeproj">
+               BuildableName = "Block value and notification valueUITests.xctest"
+               BlueprintName = "Block value and notification valueUITests"
+               ReferencedContainer = "container:Block value and notification value.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5DB69EB61D348ABA0028CA2C"
-            BuildableName = "block-mark.app"
-            BlueprintName = "block-mark"
-            ReferencedContainer = "container:block-mark.xcodeproj">
+            BuildableName = "Block value and notification value.app"
+            BlueprintName = "Block value and notification value"
+            ReferencedContainer = "container:Block value and notification value.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5DB69EB61D348ABA0028CA2C"
-            BuildableName = "block-mark.app"
-            BlueprintName = "block-mark"
-            ReferencedContainer = "container:block-mark.xcodeproj">
+            BuildableName = "Block value and notification value.app"
+            BlueprintName = "Block value and notification value"
+            ReferencedContainer = "container:Block value and notification value.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5DB69EB61D348ABA0028CA2C"
-            BuildableName = "block-mark.app"
-            BlueprintName = "block-mark"
-            ReferencedContainer = "container:block-mark.xcodeproj">
+            BuildableName = "Block value and notification value.app"
+            BlueprintName = "Block value and notification value"
+            ReferencedContainer = "container:Block value and notification value.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

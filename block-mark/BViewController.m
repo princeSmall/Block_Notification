@@ -64,8 +64,12 @@ void (^printNumBlock)(int) = ^(int num)
         self.BViewControllerBlock(self.TLTextField.text);
     }
     //NSNotifacation
+    // 将通知的值通过key值传递
     NSDictionary * dictionary = [NSDictionary dictionaryWithObjectsAndKeys:self.TLTextField.text,@"text", nil];
+    
+    //创建通知
     NSNotification * notification = [NSNotification notificationWithName:@"tongzhi" object:nil userInfo:dictionary];
+    //通过通知中心发送通知
     [[NSNotificationCenter defaultCenter] postNotification:notification];
     
 

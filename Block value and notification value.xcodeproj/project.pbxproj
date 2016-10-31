@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5DB69EB71D348ABA0028CA2C /* block-mark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "block-mark.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DB69EB71D348ABA0028CA2C /* Block value and notification value.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Block value and notification value.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DB69EBB1D348ABA0028CA2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5DB69EBD1D348ABA0028CA2C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5DB69EBE1D348ABA0028CA2C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -48,10 +48,10 @@
 		5DB69EC91D348ABA0028CA2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DB69ECC1D348ABA0028CA2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DB69ECE1D348ABA0028CA2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5DB69ED31D348ABA0028CA2C /* block-markTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "block-markTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DB69ED31D348ABA0028CA2C /* Block value and notification valueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Block value and notification valueTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DB69ED71D348ABA0028CA2C /* block_markTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = block_markTests.m; sourceTree = "<group>"; };
 		5DB69ED91D348ABA0028CA2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5DB69EDE1D348ABA0028CA2C /* block-markUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "block-markUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DB69EDE1D348ABA0028CA2C /* Block value and notification valueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Block value and notification valueUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DB69EE21D348ABA0028CA2C /* block_markUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = block_markUITests.m; sourceTree = "<group>"; };
 		5DB69EE41D348ABA0028CA2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DB69EF01D348AE80028CA2C /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 		5DB69EAE1D348ABA0028CA2C = {
 			isa = PBXGroup;
 			children = (
-				5DB69EB91D348ABA0028CA2C /* block-mark */,
+				5DB69EB91D348ABA0028CA2C /* Block value and notification value */,
 				5DB69ED61D348ABA0028CA2C /* block-markTests */,
 				5DB69EE11D348ABA0028CA2C /* block-markUITests */,
 				5DB69EB81D348ABA0028CA2C /* Products */,
@@ -96,14 +96,14 @@
 		5DB69EB81D348ABA0028CA2C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5DB69EB71D348ABA0028CA2C /* block-mark.app */,
-				5DB69ED31D348ABA0028CA2C /* block-markTests.xctest */,
-				5DB69EDE1D348ABA0028CA2C /* block-markUITests.xctest */,
+				5DB69EB71D348ABA0028CA2C /* Block value and notification value.app */,
+				5DB69ED31D348ABA0028CA2C /* Block value and notification valueTests.xctest */,
+				5DB69EDE1D348ABA0028CA2C /* Block value and notification valueUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5DB69EB91D348ABA0028CA2C /* block-mark */ = {
+		5DB69EB91D348ABA0028CA2C /* Block value and notification value */ = {
 			isa = PBXGroup;
 			children = (
 				5DB69EBD1D348ABA0028CA2C /* AppDelegate.h */,
@@ -119,6 +119,7 @@
 				5DB69EC61D348ABA0028CA2C /* block_mark.xcdatamodeld */,
 				5DB69EBA1D348ABA0028CA2C /* Supporting Files */,
 			);
+			name = "Block value and notification value";
 			path = "block-mark";
 			sourceTree = "<group>";
 		};
@@ -151,9 +152,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5DB69EB61D348ABA0028CA2C /* block-mark */ = {
+		5DB69EB61D348ABA0028CA2C /* Block value and notification value */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5DB69EE71D348ABA0028CA2C /* Build configuration list for PBXNativeTarget "block-mark" */;
+			buildConfigurationList = 5DB69EE71D348ABA0028CA2C /* Build configuration list for PBXNativeTarget "Block value and notification value" */;
 			buildPhases = (
 				5DB69EB31D348ABA0028CA2C /* Sources */,
 				5DB69EB41D348ABA0028CA2C /* Frameworks */,
@@ -163,14 +164,14 @@
 			);
 			dependencies = (
 			);
-			name = "block-mark";
+			name = "Block value and notification value";
 			productName = "block-mark";
-			productReference = 5DB69EB71D348ABA0028CA2C /* block-mark.app */;
+			productReference = 5DB69EB71D348ABA0028CA2C /* Block value and notification value.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5DB69ED21D348ABA0028CA2C /* block-markTests */ = {
+		5DB69ED21D348ABA0028CA2C /* Block value and notification valueTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5DB69EEA1D348ABA0028CA2C /* Build configuration list for PBXNativeTarget "block-markTests" */;
+			buildConfigurationList = 5DB69EEA1D348ABA0028CA2C /* Build configuration list for PBXNativeTarget "Block value and notification valueTests" */;
 			buildPhases = (
 				5DB69ECF1D348ABA0028CA2C /* Sources */,
 				5DB69ED01D348ABA0028CA2C /* Frameworks */,
@@ -181,14 +182,14 @@
 			dependencies = (
 				5DB69ED51D348ABA0028CA2C /* PBXTargetDependency */,
 			);
-			name = "block-markTests";
+			name = "Block value and notification valueTests";
 			productName = "block-markTests";
-			productReference = 5DB69ED31D348ABA0028CA2C /* block-markTests.xctest */;
+			productReference = 5DB69ED31D348ABA0028CA2C /* Block value and notification valueTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5DB69EDD1D348ABA0028CA2C /* block-markUITests */ = {
+		5DB69EDD1D348ABA0028CA2C /* Block value and notification valueUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5DB69EED1D348ABA0028CA2C /* Build configuration list for PBXNativeTarget "block-markUITests" */;
+			buildConfigurationList = 5DB69EED1D348ABA0028CA2C /* Build configuration list for PBXNativeTarget "Block value and notification valueUITests" */;
 			buildPhases = (
 				5DB69EDA1D348ABA0028CA2C /* Sources */,
 				5DB69EDB1D348ABA0028CA2C /* Frameworks */,
@@ -199,9 +200,9 @@
 			dependencies = (
 				5DB69EE01D348ABA0028CA2C /* PBXTargetDependency */,
 			);
-			name = "block-markUITests";
+			name = "Block value and notification valueUITests";
 			productName = "block-markUITests";
-			productReference = 5DB69EDE1D348ABA0028CA2C /* block-markUITests.xctest */;
+			productReference = 5DB69EDE1D348ABA0028CA2C /* Block value and notification valueUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -226,7 +227,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5DB69EB21D348ABA0028CA2C /* Build configuration list for PBXProject "block-mark" */;
+			buildConfigurationList = 5DB69EB21D348ABA0028CA2C /* Build configuration list for PBXProject "Block value and notification value" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -239,9 +240,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5DB69EB61D348ABA0028CA2C /* block-mark */,
-				5DB69ED21D348ABA0028CA2C /* block-markTests */,
-				5DB69EDD1D348ABA0028CA2C /* block-markUITests */,
+				5DB69EB61D348ABA0028CA2C /* Block value and notification value */,
+				5DB69ED21D348ABA0028CA2C /* Block value and notification valueTests */,
+				5DB69EDD1D348ABA0028CA2C /* Block value and notification valueUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -307,12 +308,12 @@
 /* Begin PBXTargetDependency section */
 		5DB69ED51D348ABA0028CA2C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5DB69EB61D348ABA0028CA2C /* block-mark */;
+			target = 5DB69EB61D348ABA0028CA2C /* Block value and notification value */;
 			targetProxy = 5DB69ED41D348ABA0028CA2C /* PBXContainerItemProxy */;
 		};
 		5DB69EE01D348ABA0028CA2C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5DB69EB61D348ABA0028CA2C /* block-mark */;
+			target = 5DB69EB61D348ABA0028CA2C /* Block value and notification value */;
 			targetProxy = 5DB69EDF1D348ABA0028CA2C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -427,7 +428,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "block-mark/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "tongle.block-mark";
+				PRODUCT_BUNDLE_IDENTIFIER = "tongle.Block-value-and-notification-value";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -438,7 +439,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "block-mark/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "tongle.block-mark";
+				PRODUCT_BUNDLE_IDENTIFIER = "tongle.Block-value-and-notification-value";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -451,7 +452,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tongle.block-markTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/block-mark.app/block-mark";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Block value and notification value.app/Block value and notification value";
 			};
 			name = Debug;
 		};
@@ -463,7 +464,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tongle.block-markTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/block-mark.app/block-mark";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Block value and notification value.app/Block value and notification value";
 			};
 			name = Release;
 		};
@@ -492,7 +493,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5DB69EB21D348ABA0028CA2C /* Build configuration list for PBXProject "block-mark" */ = {
+		5DB69EB21D348ABA0028CA2C /* Build configuration list for PBXProject "Block value and notification value" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DB69EE51D348ABA0028CA2C /* Debug */,
@@ -501,7 +502,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5DB69EE71D348ABA0028CA2C /* Build configuration list for PBXNativeTarget "block-mark" */ = {
+		5DB69EE71D348ABA0028CA2C /* Build configuration list for PBXNativeTarget "Block value and notification value" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DB69EE81D348ABA0028CA2C /* Debug */,
@@ -510,7 +511,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5DB69EEA1D348ABA0028CA2C /* Build configuration list for PBXNativeTarget "block-markTests" */ = {
+		5DB69EEA1D348ABA0028CA2C /* Build configuration list for PBXNativeTarget "Block value and notification valueTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DB69EEB1D348ABA0028CA2C /* Debug */,
@@ -519,7 +520,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5DB69EED1D348ABA0028CA2C /* Build configuration list for PBXNativeTarget "block-markUITests" */ = {
+		5DB69EED1D348ABA0028CA2C /* Build configuration list for PBXNativeTarget "Block value and notification valueUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DB69EEE1D348ABA0028CA2C /* Debug */,

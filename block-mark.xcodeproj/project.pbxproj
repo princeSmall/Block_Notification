@@ -508,6 +508,7 @@
 				5DB69EE91D348ABA0028CA2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DB69EEA1D348ABA0028CA2C /* Build configuration list for PBXNativeTarget "block-markTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +517,7 @@
 				5DB69EEC1D348ABA0028CA2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DB69EED1D348ABA0028CA2C /* Build configuration list for PBXNativeTarget "block-markUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +526,7 @@
 				5DB69EEF1D348ABA0028CA2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

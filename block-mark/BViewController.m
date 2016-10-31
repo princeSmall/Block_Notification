@@ -16,7 +16,6 @@
 #import "BViewController.h"
 
 @interface BViewController ()
-- (IBAction)TLBtn:(id)sender;
 
 @property (weak, nonatomic) IBOutlet UITextField *TLTextField;
 
@@ -26,6 +25,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"上一页" style:UIBarButtonItemStylePlain target:self action:@selector(popToAViewController)];
+    
     // 定义无参数返回值得block
     void (^printBlock)() = ^(){
         printf("no number");
@@ -53,6 +54,24 @@ void (^printNumBlock)(int) = ^(int num)
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+-(void)popToAViewController{
+    // delegate
+    if (self.delegate &&[self.delegate respondsToSelector:@selector(passTextValue:)]) {
+        [self.delegate passTextValue:self.TLTextField.text];
+    }
+    // property
+    if (self.BViewControllerBlock) {
+        self.BViewControllerBlock(self.TLTextField.text);
+    }
+    //NSNotifacation
+    NSDictionary * dictionary = [NSDictionary dictionaryWithObjectsAndKeys:self.TLTextField.text,@"text", nil];
+    NSNotification * notification = [NSNotification notificationWithName:@"tongzhi" object:nil userInfo:dictionary];
+    [[NSNotificationCenter defaultCenter] postNotification:notification];
+    
+
+    [self.navigationController popViewControllerAnimated:YES];
+
+}
 
 /*
 #pragma mark - Navigation
@@ -63,18 +82,4 @@ void (^printNumBlock)(int) = ^(int num)
     // Pass the selected object to the new view controller.
 }
 */
-
-- (IBAction)TLBtn:(id)sender {
-    //delegate
-    if (self.delegate &&[self.delegate respondsToSelector:@selector(passTextValue:)]) {
-        [self.delegate passTextValue:self.TLTextField.text];
-    }
-    
-    
-    // property
-    if (self.BViewControllerBlock) {
-        self.BViewControllerBlock(self.TLTextField.text);
-    }
-    [self.navigationController popViewControllerAnimated:YES];
-}
 @end
